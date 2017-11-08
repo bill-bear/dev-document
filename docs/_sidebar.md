@@ -1,2 +1,2 @@
 - [Home](/)
-- [Guide](guide/)
+- [Guide](guide/README.md)
