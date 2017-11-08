@@ -1,2 +1,4 @@
 - [Home](/)
 - [Guide](guide/README.md)
+- [Shit](/fuck)
+  - [Shitshhh](fuck/fukkkk/README.md)
