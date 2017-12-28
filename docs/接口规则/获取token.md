@@ -11,7 +11,7 @@
 - POST
 
 **参数：**
-```
+```json
   {
     "access_key": 'ta3gzb9lovq424zrgzkl0o13jqc4f7yd',
     "sign": "9DAF21F50797DCBC9B643B7B306188C0"，
@@ -27,7 +27,7 @@
 
  **返回示例**
 
-```
+```json
   {
     "expires_in": 20317,
     "access_token": "AuPIMicoJZ2PknHwFxHil6zDKyiX2hn9qk5c4GA6kENz4saTTiGvEoq4wlYXP7WX"
@@ -47,7 +47,7 @@
 3. 对字符串进行md5求值。
 
 python示例：
-```
+```python
 import hashlib
 
 params = {
@@ -68,7 +68,7 @@ print(md5)  # 9DAF21F50797DCBC9B643B7B306188C0
 ```
 
 ## python demo ##
-```
+```python
 import json
 import requests
 
@@ -87,7 +87,7 @@ print(resp_obj)
 ```
 
 ## java demo ##
-```
+```java
 package com.billbear.common.web.util;
 
 import java.io.BufferedReader;
