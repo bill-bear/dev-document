@@ -1,8 +1,8 @@
+# 获取token
+
 **简要描述：**
 
 - 获取token接口
-
-
 
 **请求URL：**
 - `/core/v1/token `
@@ -46,7 +46,7 @@
 2. 在stringA后面拼接上“&secret_key={sk}”
 3. 对字符串进行md5求值。
 
-python示例：
+Python示例：
 ```python
 import hashlib
 
@@ -67,7 +67,7 @@ md5 = hlb.hexdigest().upper()
 print(md5)  # 9DAF21F50797DCBC9B643B7B306188C0
 ```
 
-## python demo ##
+## Python Demo ##
 ```python
 import json
 import requests
@@ -86,7 +86,7 @@ print(resp_obj)
 # 返回： {'access_token': '61FCu7Y92WeHWpeQutt9Dz5k7Tnp6WFO5uPx4bgpCJU4XTobi08zRAjWRJenQ9nt', 'expires_in': 84762}
 ```
 
-## java demo ##
+## Java Demo ##
 ```java
 package com.billbear.common.web.util;
 
@@ -298,4 +298,4 @@ public class DefaultTrustManager
 
  **备注**
 
-1. token的最大有效期是86400秒（24\*60\*60）,当请求生成一个token之后，在token没有失效之前，继续请求token，token不变，但是返回的token剩余有效期会相应的变小。
+- token的最大有效期是86400秒（24\*60\*60）,当请求生成一个token之后，在token没有失效之前，继续请求token，token不变，但是返回的token剩余有效期会相应的变小。
