@@ -135,7 +135,7 @@
 |unavailable_time_ranges|list | 不可用时间(详细见下文说明) |
 |instruction|string| 使用说明 |
 |usage_count_unlimited | int | 是否不限次数 1是 0否 |
-|repay_description | 回报描述 |
+|repay_description |string| 回报描述 |
 |period_type |int|周期类型 1 每年 2 每季 3 每月 4 每周 5 每日 6 每半年|
 |usage_count| int | 使用次数 |
 |status|int|状态（1：正常，0：无效）|
