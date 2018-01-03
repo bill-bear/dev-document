@@ -269,7 +269,8 @@
 | id  | int | 卡片唯一标识 |
 |annual_fee |int   | 年费金额 |
 |annual_fee_currency |dict   | 年费货币 |
-|annual_fee_rule  |string  | 年费规则 |
+|annual_fee_rule  |string  | 年费描述 |
+|annual_fee_free_rules | json | 年费规则 |
 |apply_url  | string | 申卡链接 |
 |attached_card_limit  | int | 附属卡数量 |
 |bank  | dict | 银行 |
@@ -292,5 +293,22 @@
 |update_time|string|更新时间|
 
 
+**年费规则：**
 
+```
+"annuel_fee_free_rules" : [
+		{
+			"time_type" : 0,
+			"rules" : [
+				{
+					"free_type" : 2
+				}
+			]
+		}
+	],
+```
 
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|time_type  | int | 0所有时间 1首年 2次年及以后 |
+|free_type |int   | 1终身免 2全免 3不免 4满次免 5满额免 6积分抵金额 7积分抵部分 |
