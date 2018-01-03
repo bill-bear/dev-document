@@ -67,7 +67,6 @@
             ],
             "end_date":"2016-06-29",
             "id":100,
-            "is_hot":0,
 			"quota": "每日限前 2000 名",
             "original_title":"",
             "original_url":"http://market.cmbchina.com/ccard/5zqxms/index.html",
@@ -152,7 +151,6 @@
             ],
             "end_date":"2016-06-29",
             "id":99,
-            "is_hot":0,
 			"quota": "数量有限，先到先得",
             "original_title":"",
             "original_url":"http://market.cmbchina.com/ccard/5zqxms/index.html",
@@ -250,16 +248,14 @@
 |start_date|string|活动开始日期|
 |end_date|string|活动结束日期|
 | category | list |活动分类|
-| discount | list |活动的优惠类型（例如：打折、立减、兑换）|
-| is_hot |int|是否热门（1：是，0：不是）|
+|discount | list |活动的优惠类型（例如：打折、立减、兑换）|
+|pay_form|list|支付方式（例如：POS刷卡、ApplePay）|
+|pay_brand | list | 活动支付渠道（美团支付、京东支付等）|
 |available_time_ranges|list | 可用时间(详细见下文说明) |
 |unavailable_time_ranges|list | 不可用时间(详细见下文说明) |
 |display_tags|list | 特殊标签 |
-|payment|list|支付方式（例如：POS刷卡、ApplePay）|
 |zone_include|list|参与地区|
 |zone_exclude|list|不参与地区|
-|zone_include_id|list|参与地区id|
-|zone_exclude_id|list|不参与地区id|
 |subject_description|string |参与对象（活动对象）|
 |receive_description|string|参与流程（领取说明）|
 |quota| string | 活动名额|

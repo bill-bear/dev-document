@@ -25,7 +25,7 @@
          {
             "create_time": "2017-05-22 10:21:55.395000",
             "id": 339,
-            "name": "洗牙",
+            "name_cn": "洗牙",
             "level": 2,
             "parent_id": 122,
             "status": 1,
@@ -34,7 +34,7 @@
         {
             "create_time": "2017-05-22 10:21:55.390000",
             "id": 175,
-            "name": "保障",
+            "name_cn": "保障",
             "level": 1,
             "parent_id": -1,
             "status": 1,
@@ -43,7 +43,7 @@
         {
             "create_time": "2017-05-22 10:21:55.384000",
             "id": 162,
-            "name": "意外险",
+            "name_cn": "意外险",
             "level": 2,
             "parent_id": 175,
             "status": 1,
@@ -58,7 +58,7 @@
 |参数名|类型|说明|
 |:-----  |:-----|-----|
 |id |int   |对象唯一标识  |
-|name |string   |权益名称|
+|name_cn |string   |权益名称|
 |level|int | 权益级别 |
 |parent_id | int | 父级别id |
 |status|int|状态（1：正常，0：无效）|
