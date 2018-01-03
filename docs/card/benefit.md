@@ -66,6 +66,9 @@
 					"range_type": 3
 				}
 			],
+			"instruction" : "- 关注微信民生信用卡，在汽车服务里选加油卡兑换",
+			"usage_count_unlimited" : 0,
+			"repay_description" : "淘宝",
         },
         {
             "bank": {
@@ -94,6 +97,9 @@
 			"end_date":"2018-06-29",
 			"available_time_ranges": [],
 			"unavailable_time_ranges": [],
+			"instruction" : "- 关注微信民生信用卡，在汽车服务里选加油卡兑换",
+			"usage_count_unlimited" : 0,
+			"repay_description" : "淘宝",
         }
     ],
     "msg": "success",
@@ -123,6 +129,9 @@
 |end_date|string|结束日期|
 |available_time_ranges|list | 可用时间(详细见下文说明) |
 |unavailable_time_ranges|list | 不可用时间(详细见下文说明) |
+|instruction|string| 使用说明 |
+|usage_count_unlimited | int | 是否不限次数 1是 0否 |
+|repay_description | 回报描述 |
 |status|int|状态（1：正常，0：无效）|
 |create_time|string|创建时间|
 |update_time|string|更新时间|

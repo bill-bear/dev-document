@@ -67,21 +67,8 @@
             ],
             "end_date":"2016-06-29",
             "id":100,
-			"quota": "每日限前 2000 名",
             "original_title":"",
             "original_url":"http://market.cmbchina.com/ccard/5zqxms/index.html",
-            "payment":[
-			   {
-                    "id": 101,
-                    "name": "POS 刷卡",
-                    "name_en": ""
-                },
-                {
-                    "id": 102,
-                    "name": "IC 卡挥卡",
-                    "name_en": ""
-                }
-			],
             "big_img_url":"https://qnpic.billbear.cn/images/act/57551837?imageMogr2/crop/!749.0013315579228x399.46737683089214a0a0/thumbnail/!100p",
             "start_date":"2016-04-06",
             "status":1,
@@ -116,8 +103,34 @@
                 237,
             ]，
 			"subject_description": "VISA 信用卡持卡人",
-			"receive_description": "先下载app，报名参加活动，到店参与",
 			"act_type": 1,
+			"participate_info" : {
+                "way" : "到门店报名，然后在app注册",
+                "requirements" : [
+                    "拥有浦发银行信用卡",
+                    "开通网上支付"
+                ],
+                "note" : "注意必须要先报名，才可享受优惠",
+                "quota" : "20",
+                "need_reserve" : true,
+                "reserve_description" : "app预约",
+                "need_apply" : true,
+                "apply_description" : "app报名"
+            },
+            "period_usage_limits" : [
+                {
+                    "period_type" : 3,
+                    "usage_count" : 10,
+                    "usage_count_unlimited" : false
+                },
+                {
+                    "period_type" : 5,
+                    "usage_count" : 1,
+                    "usage_count_unlimited" : false
+                },
+            ],
+            "pay_brands": [1,4,8],
+            "pay_forms": [3,6]
         },
         {
             "banks":[
@@ -151,46 +164,8 @@
             ],
             "end_date":"2016-06-29",
             "id":99,
-			"quota": "数量有限，先到先得",
             "original_title":"",
             "original_url":"http://market.cmbchina.com/ccard/5zqxms/index.html",
-            "payment":[
-			    {
-                    "id": 101,
-                    "name": "POS 刷卡",
-                    "name_en": ""
-                },
-                {
-                    "id": 102,
-                    "name": "IC 卡挥卡",
-                    "name_en": ""
-                },
-                {
-                    "id": 106,
-                    "name": "Mipay",
-                    "name_en": ""
-                },
-                {
-                    "id": 103,
-                    "name": "ApplePay",
-                    "name_en": ""
-                },
-                {
-                    "id": 104,
-                    "name": "SamsungPay",
-                    "name_en": ""
-                },
-                {
-                    "id": 125,
-                    "name": "云闪付",
-                    "name_en": ""
-                },
-                {
-                    "id": 105,
-                    "name": "HuaweiPay",
-                    "name_en": ""
-                }
-			],
             "start_date":"2016-06-01",
             "status":1,
             "subject":{
@@ -224,8 +199,34 @@
                237
             ],
 			"subject_description": "VISA 信用卡持卡人",
-			"receive_description": "先下载app，报名参加活动，到店参与",
 			"act_type": 2,
+			"participate_info" : {
+                "way" : "到门店报名，然后在app注册",
+                "requirements" : [
+                    "拥有浦发银行信用卡",
+                    "开通网上支付"
+                ],
+                "note" : "注意必须要先报名，才可享受优惠",
+                "quota" : "20",
+                "need_reserve" : true,
+                "reserve_description" : "app预约",
+                "need_apply" : true,
+                "apply_description" : "app报名"
+            },
+            "period_usage_limits" : [
+                {
+                    "period_type" : 3,
+                    "usage_count" : 10,
+                    "usage_count_unlimited" : false
+                },
+                {
+                    "period_type" : 5,
+                    "usage_count" : 1,
+                    "usage_count_unlimited" : false
+                },
+            ],
+            "pay_brands": [1,4,8],
+            "pay_forms": [3,6]
         },
         .....
     ]
@@ -247,7 +248,7 @@
 |card_orgs|list|参与的卡组织|
 |start_date|string|活动开始日期|
 |end_date|string|活动结束日期|
-| category | list |活动分类|
+|category | list |活动分类|
 |discount | list |活动的优惠类型（例如：打折、立减、兑换）|
 |pay_form|list|支付方式（例如：POS刷卡、ApplePay）|
 |pay_brand | list | 活动支付渠道（美团支付、京东支付等）|
@@ -257,9 +258,9 @@
 |zone_include|list|参与地区|
 |zone_exclude|list|不参与地区|
 |subject_description|string |参与对象（活动对象）|
-|receive_description|string|参与流程（领取说明）|
-|quota| string | 活动名额|
 |act_type|int| 1线上  2线下 3 两者|
+|participate_info | json | 参与信息（包括是否需预约、是否需报名、活动名额、活动前置条件等）|
+|period_usage_limits | json | 周期 |
 |status|int|状态（1：正常，0：无效）|
 |create_time|string|创建时间|
 |update_time|string|更新时间|
@@ -284,3 +285,57 @@
 	"range_type": 3
 }]
 表示就2017年4月27日这一天0点到24点可用
+
+**参与信息：**
+
+```json
+"participate_info" : {
+		"way" : "到门店报名，然后在app注册",
+		"requirements" : [
+			"拥有浦发银行信用卡",
+			"开通网上支付"
+		],
+		"note" : "注意必须要先报名，才可享受优惠",
+		"quota" : "20",
+		"need_reserve" : true,
+		"reserve_description" : "app预约",
+		"need_apply" : true,
+		"apply_description" : "app报名"
+	},
+```
+
+|参数名|类型|说明|
+|:-----  |:-----|-----|
+|way |string|参与方式|
+|requirements|list| 参与前置条件|
+|note|string|注意事项|
+|quota|int | 活动名额|
+|need_reserve|bool|是否需要预约 |
+|reserve_description | string | 预约说明 |
+|need_apply | bool | 是否需要报名 |
+|apply_description | string | 报名说明 |
+
+
+**周期：**
+
+```json
+"period_usage_limits" : [
+		{
+			"period_type" : 3,
+			"usage_count" : 10,
+			"usage_count_unlimited" : false
+		},
+		{
+			"period_type" : 5,
+			"usage_count" : 1,
+			"usage_count_unlimited" : false
+		},
+	],
+# 这个表示每月限额10次，其中每日限1次
+```
+
+|参数名|类型|说明|
+|:-----  |:-----|-----|
+|period_type |int|周期类型 1 每年 2 每季 3 每月 4 每周 5 每日 6 每半年|
+|usage_count| int | 使用次数 |
+|usage_count_unlimited|bool| 是否不限次数|
