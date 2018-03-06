@@ -9,7 +9,7 @@
 - GET
 
 **参数：**
-同[参数规定](http://doc.liexiong.cc/#/%E6%8E%A5%E5%8F%A3%E8%A7%84%E5%88%99/%E5%8F%82%E6%95%B0%E8%A7%84%E5%AE%9A)
+- 同[参数规定](http://doc.liexiong.cc/#/rule/param)
 
  **返回示例**
 

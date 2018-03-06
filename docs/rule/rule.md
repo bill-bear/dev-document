@@ -8,7 +8,7 @@
 |  提交方式 |  采用get方法请求 |
 |  数据格式 |  url参数  |
 |  字符编码 |  统一采用UTF-8字符编码 |
-| 签名算法  |  详细请看[签名](http://doc.liexiong.cc/#/%E6%8E%A5%E5%8F%A3%E8%A7%84%E5%88%99/%E8%8E%B7%E5%8F%96token)|
+| 签名算法  |  详细请看[签名](http://doc.liexiong.cc/#/rule/token)|
 | Content-Type | application/json |
 
 

@@ -14,7 +14,7 @@ url?sync_time=1474861722907617&random_str=h5qgq9on&count=100&token=AuPIMicoJZ2Pk
 
 |参数名|必选|类型|说明|
 |:----    |:---|:----- |-----   |
-|sync_time |是  |string |上次请求获取到的时间戳（具体查看[协议规则](http://doc.liexiong.cc/#/%E6%8E%A5%E5%8F%A3%E8%A7%84%E5%88%99/%E5%8D%8F%E8%AE%AE%E8%A7%84%E5%88%99) ）  |
+|sync_time |是  |string |上次请求获取到的时间戳（具体查看[协议规则](http://doc.liexiong.cc/#/rule/token) ）  |
 |random_str     |是  |string | 8位随机字符串    |
 |count     |否  |int | 请求的数量    |
 |token     |是  |string | 请求凭证   |
