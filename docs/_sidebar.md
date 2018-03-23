@@ -32,6 +32,8 @@
 - 卡种识别
   - [卡片查询](card_recognize/query.md)
   - [卡片详细](card_recognize/detail.md)
+- 文章攻略
+  - [文章攻略](article/article.md)
 - 数据反馈
   - [活动反馈](feedback/act_feedback.md)
   - [卡片反馈](feedback/card_feedback.md)
