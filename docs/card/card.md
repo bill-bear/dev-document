@@ -283,7 +283,6 @@
 |name  |string  |名称  |
 |point_rule  |list  |积分规则  |
 |point_validity_description  | string | 积分有效期 |
-|tags  | list | 标签 |
 |interest_free_period | string | 免息期 |
 |min_repayment_description | string | 最低还款额|
 |hotlines| list | 信用卡热线|
