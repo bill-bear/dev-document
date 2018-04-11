@@ -78,6 +78,12 @@
                     "tag": "标准"
                 }
             ],
+            "issue_zones": [
+                597
+            ],
+			"issue_zones_name": [
+                "长春"
+            ],
             "point_validity_description": "信用卡有效积分可以继续累积直至销户",
             "status": 1,
             "tags": [
@@ -186,6 +192,12 @@
                     "tag": "标准"
                 }
             ],
+            "issue_zones": [
+                597
+            ],
+			"issue_zones_name": [
+                "长春"
+            ],
             "point_validity_description": "永久有效",
             "status": 1,
             "tags": [
@@ -287,6 +299,8 @@
 |min_repayment_description | string | 最低还款额|
 |hotlines| list | 信用卡热线|
 |tags | json |  卡分类 |
+|issue_zones|list|发卡城市id，id对应到地区表 |
+|issue_zones_name|list|发卡城市名称 |
 |status|int|状态（1：正常，0：无效）|
 |create_time|string|创建时间|
 |update_time|string|更新时间|
