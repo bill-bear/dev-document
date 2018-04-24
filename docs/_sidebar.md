@@ -14,7 +14,6 @@
   - [卡级别](base_data/level.md)
 - 品牌商户
   - [品牌](shop/brand.md)
-  - [品牌标签](shop/brand_tag.md)
   - [商户](shop/shop.md)
 - 优惠活动
   - [活动信息](act/act.md)

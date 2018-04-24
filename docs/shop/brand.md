@@ -26,7 +26,6 @@
             "id":6,
             "logo_url":"https://qnpic.billbear.cn/images/amap/575d5254?imageMogr2/crop/!200x200a0a0/thumbnail/!100p",
             "name":"德克士",
-            "category": 14,
             "status":1,
             "update_time":"2016-08-05 15:20:07.760999"
         },
@@ -35,7 +34,6 @@
             "id":36,
             "logo_url":"https://qnpic.billbear.cn/images/amap/575cbb9d?imageMogr2/crop/!196x196a0a0/thumbnail/!102p",
             "name":"中石油",
-            "category": 18,
             "status":1,
             "update_time":"2016-08-05 15:20:13.071000"
         },
@@ -51,7 +49,6 @@
 |id |int   |对象唯一标示  |
 |name |string   |名称  |
 |logo_url |string   |logo地址  |
-|category | int | 品牌标签id |
 |status|int|状态（1：正常，0：无效）|
 |create_time|string|创建时间|
 |update_time|string|更新时间|
