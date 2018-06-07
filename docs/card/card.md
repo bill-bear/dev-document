@@ -282,7 +282,7 @@
 |annual_fee |int   | 年费金额 |
 |annual_fee_currency |dict   | 年费货币 |
 |annual_fee_rule  |string  | 年费描述 |
-|annual_fee_free_rules | json | 年费规则 |
+|annual_fee_free_rule | json | 年费规则 |
 |apply_url  | string | 申卡链接 |
 |attached_card_limit  | int | 附属卡数量 |
 |bank  | dict | 银行 |

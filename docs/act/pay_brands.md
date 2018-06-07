@@ -26,7 +26,7 @@
             "create_time": "2017-05-22 10:21:55.395000",
             "id": 339,
             "name": "微信",
-            "category": "第三方",
+            "brand_type": 1,
             "status": 1,
             "update_time": "2017-05-22 10:21:55.395000"
         },
@@ -34,7 +34,7 @@
             "create_time": "2017-05-22 10:21:55.390000",
             "id": 175,
             "name": "银联",
-            "category": "卡组织",
+            "brand_type": 1,
             "status": 1,
             "update_time": "2017-05-22 10:21:55.390000"
         },
@@ -42,7 +42,7 @@
             "create_time": "2017-05-22 10:21:55.384000",
             "id": 162,
             "name": "银行",
-            "category": "网银",
+            "brand_type": 1,
             "status": 1,
             "update_time": "2017-05-22 10:21:55.384000"
         }
@@ -56,7 +56,7 @@
 |:-----  |:-----|-----|
 |id |int   |对象唯一标识  |
 |name |string   |活动支付渠道|
-|category|string | 渠道所属类型 |
+|brand_type|int | 1卡组织 2第三方 3银行 |
 |status|int|状态（1：正常，0：无效）|
 |create_time|string|创建时间|
 |update_time|string|更新时间|
