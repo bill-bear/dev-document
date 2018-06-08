@@ -39,6 +39,10 @@
                     "name": "卡片专享"
                 }
             ],
+            "new_tags": {
+                "name": "意外险",
+                "id": 41
+            },
             "title": "中信京东白条联名卡享积分换钢蹦",
             "update_time": "2016-12-14 15:21:15.355000",
 			"benefit_type": 1,
@@ -88,6 +92,10 @@
                 "type": 1
             },
             "tags": [],
+            "new_tags": {
+                "name": "意外险",
+                "id": 41
+            },
             "title": "分期自由",
             "update_time": "2016-12-12 17:53:36.921000",
 			"benefit_type": 2,
@@ -122,7 +130,8 @@
 |content |string   |权益内容，markdown格式  |
 |original_url |string   | 原文链接  |
 |subject|dict|区分是银行权益还是卡组织权益|
-|tags|list|标签|
+|tags|list|标签（已废弃）|
+|new_tags | dict | 权益标签 |
 |title | string | 标题 |
 |benefit_type | int | 权益类型 1 线上 2 线下 3 两者 |
 |zone_include | list | 参与地区 |
