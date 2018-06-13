@@ -306,7 +306,7 @@
 
 |参数名|类型|说明|
 |:-----  |:-----|-----|
-|way |string|参与方式|
+|way |string|参与方式（刷呗上叫参与流程）|
 |requirements|list| 参与前置条件|
 |note|string|注意事项|
 |quota|int | 活动名额|
