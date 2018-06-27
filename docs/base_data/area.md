@@ -22,29 +22,33 @@
     "status":"200",
     "sync_time":"1469586420332999",
     "data":[
-        {
-            "create_time":"2016-07-27 10:27:00.332999",
-            "id":100,
-			"mongo_id": '57981bf30926a858b31257ee',
-            "name":"委内瑞拉",
-            "name_en":"Venezuela",
-            "parent_id":5,
-            "parent_name":"南美洲",
-            "status":1,
-            "update_time":"2016-07-27 10:27:00.332999",
-            "zone_type":2
+         {
+            "name_en": "",
+            "parent_id": 379,
+            "parent_name": "杭州",
+            "zone_type": 5,
+            "mongo_id": "5979b0090926a83a9102f0e8",
+            "name": "下城区",
+            "id": 3306,
+            "adcode": "330103",
+            "update_time": "2018-06-27 10:46:26.859000",
+            "citycode": "0571",
+            "create_time": "2017-07-27 17:19:05.380000",
+            "status": 1
         },
         {
-            "create_time":"2016-07-27 10:27:00.328000",
-            "id":99,
-			"mongo_id": '57981bf30926a858b31257ee',
-            "name":"孟加拉",
-            "name_en":"Bangladesh",
-            "parent_id":1,
-            "parent_name":"亚洲",
-            "status":1,
-            "update_time":"2016-07-27 10:27:00.328000",
-            "zone_type":2
+            "name_en": "",
+            "parent_id": 379,
+            "parent_name": "杭州",
+            "zone_type": 5,
+            "mongo_id": "5979b0090926a83a9102f0e7",
+            "name": "上城区",
+            "id": 3305,
+            "adcode": "330102",
+            "update_time": "2018-06-27 10:46:26.850000",
+            "citycode": "0571",
+            "create_time": "2017-07-27 17:19:05.370000",
+            "status": 1
         },
         .....
     ]
@@ -62,6 +66,8 @@
 |parent_id |string   |父级的id  |
 |parent_name|string|父级的名称|
 |zone_type|string|地区的界别|
+|adcode | string|高德区域编码 |
+|citycode | string | 高德城市编码|
 |status|int|状态（1：正常，0：无效）|
 |create_time|string|创建时间|
 |update_time|string|更新时间|
