@@ -30,7 +30,7 @@
             },
             "city":{
                 "id":671,
-                "name":"珠海"
+                "name":"香洲区"
             },
             "coordinate":{
                 "latitude":22.269779,
@@ -48,6 +48,7 @@
             "tel":[
                 "0756-2121666"
             ],
+			"logo_small": "https://qnimg.billbear.cn/08%E9%A4%90%E9%A5%AE%20.png",
             "update_time":"2016-05-23 13:20:53.000000"
         },
         {
@@ -58,8 +59,7 @@
             },
             "city":{
                 "id":685,
-				"mongo_id": '57981bf30926a858b31257ee',
-                "name":"上海"
+                "name":"徐汇区"
             },
             "coordinate":{
                 "latitude":31.171715,
@@ -76,6 +76,7 @@
             "tel":[
 
             ],
+			"logo_small": "https://qnimg.billbear.cn/08%E9%A4%90%E9%A5%AE%20.png",
             "update_time":"2016-05-23 10:55:35.000000"
         },
         .....
@@ -95,6 +96,7 @@
 |coordinate|dict|坐标|
 |tags| list|标签|
 |tel|list|电话|
+|logo_small|string | 商户图 |
 |status|int|状态（1：正常，0：无效）|
 |create_time|string|创建时间|
 |update_time|string|更新时间|
