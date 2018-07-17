@@ -250,8 +250,8 @@
 |end_date|string|活动结束日期|
 |category | list |活动分类|
 |discount | list |活动的优惠类型（例如：打折、立减、兑换）|
-|pay_form|list|支付方式（例如：POS刷卡、ApplePay）|
-|pay_brand | list | 活动支付渠道（美团支付、京东支付等）|
+|pay_forms|list|支付方式（例如：POS刷卡、ApplePay）|
+|pay_brands | list | 活动支付渠道（美团支付、京东支付等）|
 |available_time_ranges|list | 可用时间(详细见下文说明) |
 |unavailable_time_ranges|list | 不可用时间(详细见下文说明) |
 |display_tags|list | 特殊标签 |
