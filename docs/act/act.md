@@ -243,7 +243,7 @@
 |content |string   |活动内容，markdown格式  |
 |original_url|string| 活动原文链接|
 |big_img_url|string|大图标地址|
-|subject|string|活动主体（活动是银行还是卡组织发起的）|
+|subject|dict|活动主体（活动是银行还是卡组织发起的）|
 |bank|list|参与的银行|
 |card_orgs|list|参与的卡组织|
 |start_date|string|活动开始日期|
