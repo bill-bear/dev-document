@@ -309,7 +309,7 @@
 |way |string|参与方式（刷呗上叫参与流程）|
 |requirements|list| 参与前置条件|
 |note|string|注意事项|
-|quota|int | 活动名额|
+|quota|string | 活动名额|
 |need_reserve|bool|是否需要预约 |
 |reserve_description | string | 预约说明 |
 |need_apply | bool | 是否需要报名 |
