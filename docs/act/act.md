@@ -27,206 +27,154 @@
     "sync_time":"1469586420332999",
     "data":[
         {
-            "banks":[
+            "zone_exclude": [],
+            "receive_description": "",
+            "usage_scene": [],
+            "subject_description": "招商银行信用卡持卡人",
+            "banks": [
                 {
-                    "id":14,
-                    "name":"招商银行"
+                    "name": "招商银行",
+                    "id": 11
                 }
             ],
-            "card_orgs":[],      # 主体是银行，则卡组织字段为空，反之亦然
-            "category":[
+            "card_orgs": [],
+            "act_type": 1,
+            "end_date": "2018-07-25",
+            "available_time_ranges": [
                 {
-                    "id":51,
-                    "name":"火锅",
-                    "name_en":"hotpot"
-                },
-                {
-                    "id":53,
-                    "name":"冷饮",
-                    "name_en":"cold_drink"
-                },
-                {
-                    "id":55,
-                    "name":"其他美食",
-                    "name_en":"other_food"
-                },
-                {
-                    "id":50,
-                    "name":"自助餐",
-                    "name_en":"buffet"
+                    "day": null,
+                    "weekday": 2,
+                    "range_type": 2,
+                    "start_time": 36000,
+                    "end_time": 86100
                 }
             ],
-            "content":"##### 活动内容 1. 即日起至2016年6月29日每周三招行卡至掌上生活享50元购花千锅价值100元代金券1张。 1. 每位客户最多购买1张。 ##### 注意事项 - 凭代金券验证码至上海花千锅大宁国际店验证后使用，一经验证使用不可退款。 - 5折券可与招行天天享美食代金券一起使用。 - 仅支持周三购买，且仅限每周三使用。 - 仅限堂食自助餐，不提供外带。",
-            "create_time":"2016-06-06 14:41:01.000000",
-            "discount":[
+            "title": "小大董 50 元购 100 元代金券",
+            "id": 399702,
+            "category": [
                 {
-                    "id":18,
-                    "name":"打折",
-                    "name_en":"discount"
+                    "name_en": "",
+                    "name": "中餐",
+                    "id": 316
                 }
             ],
-            "end_date":"2016-06-29",
-            "id":100,
-            "original_title":"",
-            "original_url":"http://market.cmbchina.com/ccard/5zqxms/index.html",
-            "big_img_url":"https://qnpic.billbear.cn/images/act/57551837?imageMogr2/crop/!749.0013315579228x399.46737683089214a0a0/thumbnail/!100p",
-            "start_date":"2016-04-06",
-            "status":1,
-            "subject":{
-                "name":"bank",
-                "type":1
+            "display_tags": [],
+            "original_url": "https://piao.o2o.cmbchina.com/shopwindow/weixinProductDetail?cityNo=10&productNo=9918062803721",
+            "zone_include": [
+                "北京"
+            ],
+            "special_weekdays": [],
+            "act_area": null,
+            "small_img_url": null,
+            "payment": [
+                {
+                    "name_en": "",
+                    "name": "网银快捷支付",
+                    "id": 169
+                }
+            ],
+            "create_time": "2018-07-01 09:03:35.319000",
+            "update_time": "2018-07-16 09:55:53.570000",
+            "money_limit": null,
+            "subject": {
+                "name": "bank",
+                "type": 1
             },
-            "title":"招行卡周三50元购大宁国际花千锅100元代金券",
-            "update_time":"2016-06-21 15:56:36.048000",
-			"available_time_ranges": [
-				{
-					"end_time": 86400,
-					"day": 1493222400.0,
-					"start_time": 0,
-					"weekday": null,
-					"range_type": 3
-				}
-			],
-			"unavailable_time_ranges": [
-				{
-					"end_time": 86400,
-					"day": 1493136000.0,
-					"start_time": 0,
-					"weekday": null,
-					"range_type": 3
-				}
-			],
-			"zone_include": [
-                685,
-            ]
-			"zone_exclude": [
-                237,
-            ]，
-			"subject_description": "VISA 信用卡持卡人",
-			"act_type": 1,
-			"participate_info" : {
-                "way" : "到门店报名，然后在app注册",
-                "requirements" : [
-                    "拥有浦发银行信用卡",
-                    "开通网上支付"
-                ],
-                "note" : "注意必须要先报名，才可享受优惠",
-                "quota" : "20",
-                "need_reserve" : true,
-                "reserve_description" : "app预约",
-                "need_apply" : true,
-                "apply_description" : "app报名"
-            },
-            "period_usage_limits" : [
+            "content": "##### 参与方式\n- 通过「掌上生活 APP」购劵\n- 至「小大董」使用\n\n##### 活动内容\n- 活动期间，招商银行信用卡持卡人**每周三上午 10:00** 至招行「掌上生活 APP」50 元购「小大董」100 元代金券\n\n##### 注意事项\n- 仅限周三使用\n- 可与招商银行常规优惠券叠加使用\n- 不与商户其他优惠同享\n- 有效期内限购买 1 张\n- 具体使用细则请以银行和门店公告为准\n\n",
+            "big_img_url": "https://qnpic.billbear.cn/Fs1P6xchqJwyYvGTpUNhHZROcgpl",
+            "quota": "数量有限，先到先得",
+            "is_hot": 0,
+            "discount": [
                 {
-                    "period_type" : 3,
-                    "usage_count" : 10,
-                    "usage_count_unlimited" : false
-                },
-                {
-                    "period_type" : 5,
-                    "usage_count" : 1,
-                    "usage_count_unlimited" : false
-                },
+                    "name_en": "free_coupon",
+                    "name": "享券",
+                    "id": 22
+                }
             ],
-            "pay_brands": [1,4,8],
-            "pay_forms": [3,6]
+            "special_dates": [],
+            "unavailable_time_ranges": [],
+            "status": 1,
+            "start_date": "2018-07-04",
+            "zone_include_id": [
+                567
+            ],
+            "original_title": "(周三5折）小大董100元代金券",
+            "zone_exclude_id": []
         },
         {
-            "banks":[
+            "zone_exclude": [],
+            "receive_description": "",
+            "usage_scene": [],
+            "subject_description": "招商银行信用卡持卡人",
+            "banks": [
                 {
-                    "id":14,
-                    "name":"招商银行"
+                    "name": "招商银行",
+                    "id": 11
                 }
             ],
-            "card_orgs":[
-            ],
-            "category":[
+            "card_orgs": [],
+            "act_type": 1,
+            "end_date": "2018-12-31",
+            "available_time_ranges": [
                 {
-                    "id":55,
-                    "name":"其他美食",
-                    "name_en":"other_food"
-                },
-                {
-                    "id":50,
-                    "name":"自助餐",
-                    "name_en":"buffet"
+                    "day": null,
+                    "weekday": 2,
+                    "range_type": 2,
+                    "start_time": 36000,
+                    "end_time": 79200
                 }
             ],
-            "content":"##### 活动内容 1. 即日起至2016年6月29日每周三上午10点招行卡至掌上生活享50元购新石器烤肉价值100元代金券1张。 1. 每位客户仅限抢购2张。 ##### 注意事项 - 抢兑商品是否成功购买以收到验证码为准，是否使用以商户验证核实为准。 - 本券仅限堂食，不提供外带、打包服务，酒水饮料等问题请致电商家咨询，以商家反馈为准。 - 可累计使用。 - 不兑现，不找零，不与其他优惠同享。",
-            "create_time":"2016-06-06 13:25:39.000000",
-            "discount":[
+            "title": "韩宫宴 50 元购 100 元代金券",
+            "id": 396297,
+            "category": [
                 {
-                    "id":18,
-                    "name":"打折",
-                    "name_en":"discount"
+                    "name_en": "barbecue",
+                    "name": "烧烤",
+                    "id": 196
                 }
             ],
-            "end_date":"2016-06-29",
-            "id":99,
-            "original_title":"",
-            "original_url":"http://market.cmbchina.com/ccard/5zqxms/index.html",
-            "start_date":"2016-06-01",
-            "status":1,
-            "subject":{
-                "name":"bank",
-                "type":1
+            "display_tags": [],
+            "original_url": "https://piao.o2o.cmbchina.com/shopwindow/weixinProductDetail?cityNo=572&productNo=9918062701041",
+            "zone_include": [
+                "湖州"
+            ],
+            "special_weekdays": [],
+            "act_area": null,
+            "small_img_url": null,
+            "payment": [
+                {
+                    "name_en": "",
+                    "name": "网银快捷支付",
+                    "id": 169
+                }
+            ],
+            "create_time": "2018-07-07 09:44:20.371000",
+            "update_time": "2018-07-16 09:55:45.259000",
+            "money_limit": null,
+            "subject": {
+                "name": "bank",
+                "type": 1
             },
-            "title":"招行卡周三50元购新石器烤肉100元代金券",
-            "update_time":"2016-06-21 15:56:36.046999",
-			"available_time_ranges": [
-				{
-					"end_time": 86400,
-					"day": 1493222400.0,
-					"start_time": 0,
-					"weekday": null,
-					"range_type": 3
-				}
-			],
-			"unavailable_time_ranges": [
-				{
-					"end_time": 86400,
-					"day": 1493136000.0,
-					"start_time": 0,
-					"weekday": null,
-					"range_type": 3
-				}
-			],
-			"zone_include": [
-                685
-            ],
-			"zone_exclude": [
-               237
-            ],
-			"subject_description": "VISA 信用卡持卡人",
-			"act_type": 2,
-			"participate_info" : {
-                "way" : "到门店报名，然后在app注册",
-                "requirements" : [
-                    "拥有浦发银行信用卡",
-                    "开通网上支付"
-                ],
-                "note" : "注意必须要先报名，才可享受优惠",
-                "quota" : "20",
-                "need_reserve" : true,
-                "reserve_description" : "app预约",
-                "need_apply" : true,
-                "apply_description" : "app报名"
-            },
-            "period_usage_limits" : [
+            "content": "##### 参与方式\n- 通过「掌上生活 APP」购劵\n- 至「韩宫宴」使用\n\n##### 活动内容\n- 活动期间，招商银行信用卡持卡人**每周三上午 10:00** 至招行「掌上生活 APP」50 元购「韩宫宴」100 元代金券\n\n##### 注意事项\n- 仅限周三使用\n- 有效期内限购买 20 张\n- 单笔订单限购 1 张\n- 具体使用细则请以银行和门店公告为准\n\n",
+            "big_img_url": "https://qnpic.billbear.cn/FlvfTBZw7OwlVGRjXCWuQ2m5Sal6",
+            "quota": "数量有限，先到先得",
+            "is_hot": 0,
+            "discount": [
                 {
-                    "period_type" : 3,
-                    "usage_count" : 10,
-                    "usage_count_unlimited" : false
-                },
-                {
-                    "period_type" : 5,
-                    "usage_count" : 1,
-                    "usage_count_unlimited" : false
-                },
+                    "name_en": "free_coupon",
+                    "name": "享券",
+                    "id": 22
+                }
             ],
-            "pay_brands": [1,4,8],
-            "pay_forms": [3,6]
+            "special_dates": [],
+            "unavailable_time_ranges": [],
+            "status": 1,
+            "start_date": "2018-07-01",
+            "zone_include_id": [
+                607
+            ],
+            "original_title": "（周三5折）韩宫宴100元代金券",
+            "zone_exclude_id": []
         },
         .....
     ]
@@ -257,6 +205,8 @@
 |display_tags|list | 特殊标签 |
 |zone_include|list|参与地区|
 |zone_exclude|list|不参与地区|
+|zone_include_id|list|参与地区id, 对应地区表id|
+|zone_exclude_id|list|不参与地区id|
 |subject_description|string |参与对象（活动对象）|
 |act_type|int| 1线上  2线下 3 两者|
 |participate_info | json | 参与信息（包括是否需预约、是否需报名、活动名额、活动前置条件等）|
