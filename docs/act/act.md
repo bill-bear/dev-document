@@ -22,163 +22,169 @@
 
 ```json
 {
-    "msg":"success",
-    "status":"200",
-    "sync_time":"1469586420332999",
-    "data":[
+    "data": [
         {
-            "zone_exclude": [],
-            "receive_description": "",
-            "usage_scene": [],
-            "subject_description": "招商银行信用卡持卡人",
+            "end_date": "2018-12-31",
             "banks": [
                 {
                     "name": "招商银行",
                     "id": 11
                 }
             ],
-            "card_orgs": [],
-            "act_type": 1,
-            "end_date": "2018-07-25",
             "available_time_ranges": [
                 {
+                    "end_time": 79200,
                     "day": null,
                     "weekday": 2,
                     "range_type": 2,
-                    "start_time": 36000,
-                    "end_time": 86100
-                }
-            ],
-            "title": "小大董 50 元购 100 元代金券",
-            "id": 399702,
-            "category": [
-                {
-                    "name_en": "",
-                    "name": "中餐",
-                    "id": 316
+                    "start_time": 36000
                 }
             ],
             "display_tags": [],
-            "original_url": "https://piao.o2o.cmbchina.com/shopwindow/weixinProductDetail?cityNo=10&productNo=9918062803721",
             "zone_include": [
-                "北京"
+                607
             ],
-            "special_weekdays": [],
-            "act_area": null,
-            "small_img_url": null,
-            "payment": [
-                {
-                    "name_en": "",
-                    "name": "网银快捷支付",
-                    "id": 169
-                }
-            ],
-            "create_time": "2018-07-01 09:03:35.319000",
-            "update_time": "2018-07-16 09:55:53.570000",
-            "money_limit": null,
-            "subject": {
-                "name": "bank",
-                "type": 1
-            },
-            "content": "##### 参与方式\n- 通过「掌上生活 APP」购劵\n- 至「小大董」使用\n\n##### 活动内容\n- 活动期间，招商银行信用卡持卡人**每周三上午 10:00** 至招行「掌上生活 APP」50 元购「小大董」100 元代金券\n\n##### 注意事项\n- 仅限周三使用\n- 可与招商银行常规优惠券叠加使用\n- 不与商户其他优惠同享\n- 有效期内限购买 1 张\n- 具体使用细则请以银行和门店公告为准\n\n",
-            "big_img_url": "https://qnpic.billbear.cn/Fs1P6xchqJwyYvGTpUNhHZROcgpl",
-            "quota": "数量有限，先到先得",
-            "is_hot": 0,
             "discount": [
                 {
-                    "name_en": "free_coupon",
                     "name": "享券",
+                    "name_en": "free_coupon",
                     "id": 22
-                }
-            ],
-            "special_dates": [],
-            "unavailable_time_ranges": [],
-            "status": 1,
-            "start_date": "2018-07-04",
-            "zone_include_id": [
-                567
-            ],
-            "original_title": "(周三5折）小大董100元代金券",
-            "zone_exclude_id": []
-        },
-        {
-            "zone_exclude": [],
-            "receive_description": "",
-            "usage_scene": [],
-            "subject_description": "招商银行信用卡持卡人",
-            "banks": [
-                {
-                    "name": "招商银行",
-                    "id": 11
-                }
-            ],
-            "card_orgs": [],
-            "act_type": 1,
-            "end_date": "2018-12-31",
-            "available_time_ranges": [
-                {
-                    "day": null,
-                    "weekday": 2,
-                    "range_type": 2,
-                    "start_time": 36000,
-                    "end_time": 79200
-                }
-            ],
-            "title": "韩宫宴 50 元购 100 元代金券",
-            "id": 396297,
-            "category": [
-                {
-                    "name_en": "barbecue",
-                    "name": "烧烤",
-                    "id": 196
-                }
-            ],
-            "display_tags": [],
-            "original_url": "https://piao.o2o.cmbchina.com/shopwindow/weixinProductDetail?cityNo=572&productNo=9918062701041",
-            "zone_include": [
-                "湖州"
-            ],
-            "special_weekdays": [],
-            "act_area": null,
-            "small_img_url": null,
-            "payment": [
-                {
-                    "name_en": "",
-                    "name": "网银快捷支付",
-                    "id": 169
                 }
             ],
             "create_time": "2018-07-07 09:44:20.371000",
-            "update_time": "2018-07-16 09:55:45.259000",
-            "money_limit": null,
             "subject": {
                 "name": "bank",
                 "type": 1
             },
-            "content": "##### 参与方式\n- 通过「掌上生活 APP」购劵\n- 至「韩宫宴」使用\n\n##### 活动内容\n- 活动期间，招商银行信用卡持卡人**每周三上午 10:00** 至招行「掌上生活 APP」50 元购「韩宫宴」100 元代金券\n\n##### 注意事项\n- 仅限周三使用\n- 有效期内限购买 20 张\n- 单笔订单限购 1 张\n- 具体使用细则请以银行和门店公告为准\n\n",
             "big_img_url": "https://qnpic.billbear.cn/FlvfTBZw7OwlVGRjXCWuQ2m5Sal6",
-            "quota": "数量有限，先到先得",
-            "is_hot": 0,
+            "title": "韩宫宴 50 元购 100 元代金券",
+            "start_date": "2018-07-01",
+            "status": 1,
+            "content": "##### 参与方式\n- 通过「掌上生活 APP」购劵\n- 至「韩宫宴」使用\n\n##### 活动内容\n- 活动期间，招商银行信用卡持卡人**每周三上午 10:00** 至招行「掌上生活 APP」50 元购「韩宫宴」100 元代金券\n\n##### 注意事项\n- 仅限周三使用\n- 有效期内限购买 20 张\n- 单笔订单限购 1 张\n- 具体使用细则请以银行和门店公告为准\n\n",
+            "category": [
+                {
+                    "name": "烧烤",
+                    "name_en": "barbecue",
+                    "id": 196
+                }
+            ],
+            "card_orgs": [],
+            "period_usage_limits": [
+                {
+                    "usage_count_unlimited": true,
+                    "period_type": 0,
+                    "usage_count": null
+                }
+            ],
+            "unavailable_time_ranges": [],
+            "pay_forms": [
+                12
+            ],
+            "update_time": "2018-07-16 09:55:45.259000",
+            "participate_info": {
+                "need_apply": false,
+                "requirements": [],
+                "need_reserve": false,
+                "quota": "数量有限，先到先得",
+                "apply_description": "",
+                "note": "- 仅限周三使用\n- 有效期内限购买 20 张\n- 单笔订单限购 1 张\n- 具体使用细则请以银行和门店公告为准",
+                "reserve_description": "",
+                "way": "- 通过「掌上生活 APP」购劵\n- 至「韩宫宴」使用"
+            },
+            "original_url": "https://piao.o2o.cmbchina.com/shopwindow/weixinProductDetail?cityNo=572&productNo=9918062701041",
+            "pay_brands": [
+                21
+            ],
+            "zone_exclude": [],
+            "subject_description": "招商银行信用卡持卡人",
+            "act_type": 1,
+            "id": 396297,
+            "original_title": "（周三5折）韩宫宴100元代金券"
+        },
+        {
+            "end_date": "2018-09-30",
+            "banks": [
+                {
+                    "name": "光大银行",
+                    "id": 9
+                }
+            ],
+            "available_time_ranges": [
+                {
+                    "end_time": 86340,
+                    "day": null,
+                    "weekday": 0,
+                    "range_type": 2,
+                    "start_time": 36000
+                }
+            ],
+            "display_tags": [],
+            "zone_include": [
+                563
+            ],
             "discount": [
                 {
-                    "name_en": "free_coupon",
                     "name": "享券",
+                    "name_en": "free_coupon",
                     "id": 22
                 }
             ],
-            "special_dates": [],
-            "unavailable_time_ranges": [],
-            "status": 1,
+            "create_time": "2018-07-12 17:48:54.131000",
+            "subject": {
+                "name": "bank",
+                "type": 1
+            },
+            "big_img_url": "https://qnpic.billbear.cn/FmK9LwNPcr0gFXroR7ik63BbGDzM",
+            "title": "小蕉娘 50 元购 100 元代金券",
             "start_date": "2018-07-01",
-            "zone_include_id": [
-                607
+            "status": 1,
+            "content": "##### 参与方式\n- 通过「阳光惠生活」购劵\n- 至「小蕉娘」使用\n\n##### 活动内容\n- 活动期间，光大银行信用卡持卡人通过「阳光惠生活」享 50 元购「小蕉娘」100 元代金券\n\n##### 注意事项\n- 具体使用细则请以银行和门店公告为准\n- 每人每月限 2 次\n\n",
+            "category": [
+                {
+                    "name": "东南亚菜",
+                    "name_en": "Southeast Asian cuisine",
+                    "id": 198
+                }
             ],
-            "original_title": "（周三5折）韩宫宴100元代金券",
-            "zone_exclude_id": []
-        },
-        .....
-    ]
+            "card_orgs": [],
+            "period_usage_limits": [
+                {
+                    "usage_count_unlimited": true,
+                    "period_type": 4,
+                    "usage_count": null
+                }
+            ],
+            "unavailable_time_ranges": [],
+            "pay_forms": [
+                12
+            ],
+            "update_time": "2018-07-16 09:54:14.143000",
+            "participate_info": {
+                "need_apply": false,
+                "requirements": [],
+                "need_reserve": false,
+                "quota": "数量有限，先到先得",
+                "apply_description": "",
+                "note": "- 具体使用细则请以银行和门店公告为准\n- 每人每月限 2 次",
+                "reserve_description": "",
+                "way": "- 通过「阳光惠生活」购劵\n- 至「小蕉娘」使用"
+            },
+            "original_url": "http://cebbank.billbear.cn/index.html#/confirmOrder:27054",
+            "pay_brands": [
+                19
+            ],
+            "zone_exclude": [],
+            "subject_description": "光大银行信用卡持卡人",
+            "act_type": 1,
+            "id": 401567,
+            "original_title": "光大信用卡 50 元购 100 元小蕉娘亿合城抵值券"
+        }
+    ],
+    "sync_time": "1531706145259000",
+    "status": "200",
+    "msg": "success"
 }
+
 ```
 
 **返回参数说明：** 
