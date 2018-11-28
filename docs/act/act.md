@@ -209,10 +209,8 @@
 |available_time_ranges|list | 可用时间(详细见下文说明) |
 |unavailable_time_ranges|list | 不可用时间(详细见下文说明) |
 |display_tags|list | 特殊标签 |
-|zone_include|list|参与地区|
-|zone_exclude|list|不参与地区|
-|zone_include_id|list|参与地区id, 对应地区表id|
-|zone_exclude_id|list|不参与地区id|
+|zone_include|list|参与地区id|
+|zone_exclude|list|不参与地区id|
 |subject_description|string |参与对象（活动对象）|
 |act_type|int| 1线上  2线下 3 两者|
 |participate_info | json | 参与信息（包括是否需预约、是否需报名、活动名额、活动前置条件等）|
