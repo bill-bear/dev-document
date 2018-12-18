@@ -68,14 +68,16 @@
                     "input_value": "1",
                     "output_unit": "积分",
                     "output_value": "1",
-                    "tag": "标准"
+                    "tag": "标准",
+                    "description": "境外消费享双倍积分"
                 },
                 {
                     "input_unit": "USD",
                     "input_value": "1",
                     "output_unit": "积分",
                     "output_value": "6",
-                    "tag": "标准"
+                    "tag": "标准",
+                    "description": "境外消费享双倍积分"
                 }
             ],
             "issue_zones": [
@@ -189,7 +191,8 @@
                     "input_value": "1",
                     "output_unit": "积分",
                     "output_value": "1",
-                    "tag": "标准"
+                    "tag": "标准",
+                    "description": "境外消费享双倍积分"
                 }
             ],
             "issue_zones": [
