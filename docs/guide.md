@@ -3,12 +3,12 @@
 1、先根据用例算对正确的签名
 
 例如，
-access_key = 'ta3gzb9lovq424zrgzkl0o13jqc4f7yd'
-secret_key = 'wud1sfd3mrdmygs1z5l8bk4glo9v9qlz'
-time = 1499767733.013236
+access_key = 'ock3svreqelk3uqfu51a48fnsz8jlwv1'
+secret_key = 'onqstlf2p8sglb8mnpbuu6cek5nrhhet'
+time = 1546936509.421658
 
 正确的签名为：
-9DAF21F50797DCBC9B643B7B306188C0
+CE1DD3A6B399E72BEBAF7995A59FE194
 
 如果不对，请对照接口规则-获取token直到算对签名，注意签名转为大写。
 
